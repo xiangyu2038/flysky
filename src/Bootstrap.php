@@ -27,6 +27,7 @@ class Bootstrap {
         ///添加路由订阅者
         $dispatcher->addSubscriber(new \Symfony\Component\HttpKernel\EventListener\RouterListener($matcher, $requestStack));
 
+
         return $container;
     }
 }

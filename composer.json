@@ -1,0 +1,27 @@
+{
+    "name": "xiangyu2038/withxy",
+    "description": "laravel的查询插件",
+    "type": "l",
+    "require": {
+        "php": ">=7.0",
+        "symfony/var-dumper": "^4.2",
+        "illuminate/container": "^5.7",
+        "symfony/routing": "v4.0.1",
+        "symfony/http-foundation": "^4.2",
+        "symfony/http-kernel": "^4.2",
+        "symfony/event-dispatcher": "^4.2"
+    },
+    "license": "PHP-3.0",
+    "authors": [
+        {
+            "name": "chenxiangyu",
+            "email": "996163957@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "XiangYu2038\\FlySky\\": "src/"
+        }
+    }
+}

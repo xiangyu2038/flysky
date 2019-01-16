@@ -1,0 +1,21 @@
+{
+    "name": "xiangyu2038/wish",
+    "description": "laravel的查询处理插件",
+    "type": "l",
+    "require": {
+        "php": ">=7.0"
+    },
+    "license": "PHP-3.0",
+    "authors": [
+        {
+            "name": "chenxiangyu",
+            "email": "996163957@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "XiangYu2038\\Wish\\": "src/"
+        }
+    }
+}

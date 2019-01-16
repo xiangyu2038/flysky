@@ -1,0 +1,27 @@
+{
+    "name": "xiangyu2038/frames",
+    "description": "一个框架",
+    "type": "l",
+    "require": {
+        "symfony/var-dumper": "^4.2",
+        "illuminate/container": "^5.7",
+        "xiangyu2038/wish": "^5.0",
+        "symfony/routing": "v4.0.1",
+        "symfony/http-foundation": "^4.2",
+        "symfony/http-kernel": "^4.2",
+        "symfony/event-dispatcher": "^4.2"
+    },
+    "license": "PHP-3.0",
+    "authors": [
+        {
+            "name": "chenxiangyu",
+            "email": "996163957@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}

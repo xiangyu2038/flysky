@@ -1,9 +1,10 @@
 {
-    "name": "xiangyu2038/frames",
+    "name": "xiangyu2038/flysky",
     "description": "一个框架",
-    "type": "l",
+    "type": "project",
     "require": {
         "symfony/var-dumper": "^4.2",
+        
         "illuminate/container": "^5.7",
         "xiangyu2038/wish": "^5.0",
         "symfony/routing": "v4.0.1",

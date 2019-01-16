@@ -1,6 +1,6 @@
 {
-    "name": "xiangyu2038/withxy",
-    "description": "laravel的查询插件",
+    "name": "xiangyu2038/flysky",
+    "description": "一个框架",
     "type": "l",
     "require": {
         "php": ">=7.0",

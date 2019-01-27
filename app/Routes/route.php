@@ -3,10 +3,11 @@
 // 路由配置文件
 use Symfony\Component\Routing;
 
-$routes = new Routing\RouteCollection();
-$routes->add('leap_year', new Routing\Route('/is_leap_year/{year}', array(
+
+
+$routes->add('test', new Routing\Route('/test/{hello}', array(
     'year' => null,
-    '_controller' => 'App\Http\IndexController::index',
+    '_controller' => 'App\Http\TestController::index',
 )));
 
 return $routes;

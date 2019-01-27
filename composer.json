@@ -9,7 +9,12 @@
         "symfony/http-foundation": "^4.2",
         "symfony/http-kernel": "^4.2",
         "symfony/event-dispatcher": "^4.2",
-        "xiangyu2038/fly_sky_framework": "3.0.0"
+        "xiangyu2038/fly_sky_framework": "3.0.0",
+        "illuminate/config": "^5.8@dev",
+        "symfony/finder": "^4.3@dev",
+        "illuminate/view": "^5.8@dev",
+        "illuminate/events": "^5.8@dev",
+        "illuminate/database": "^5.8@dev"
     },
     "license": "PHP-3.0",
     "authors": [

@@ -3,7 +3,7 @@
 // 路由配置文件
 use Symfony\Component\Routing;
 
-
+$routes = new Routing\RouteCollection();
 
 $routes->add('test', new Routing\Route('/test/{hello}', array(
     'year' => null,

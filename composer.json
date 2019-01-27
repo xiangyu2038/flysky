@@ -4,10 +4,7 @@
     "type": "project",
     "require": {
         "xiangyu2038/fly_sky_framework": "^5.0.0",
-        "illuminate/config": "^5.8",
-        "symfony/finder": "^4.3",
         "illuminate/view": "^5.8",
-        "illuminate/events": "^5.8",
         "illuminate/database": "^5.8"
     },
     "license": "PHP-3.0",

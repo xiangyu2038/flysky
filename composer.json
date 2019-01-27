@@ -3,9 +3,10 @@
     "description": "一个框架",
     "type": "project",
     "require": {
-        "xiangyu2038/fly_sky_framework": "^5.0.0",
         "illuminate/view": "^5.8",
-        "illuminate/database": "^5.8"
+        "illuminate/database": "^5.8",
+        "xiangyu2038/fly_sky_framework": "^5.0.0"
+
     },
     "license": "PHP-3.0",
     "authors": [

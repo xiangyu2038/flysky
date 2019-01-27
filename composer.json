@@ -3,12 +3,6 @@
     "description": "一个框架",
     "type": "project",
     "require": {
-        "symfony/var-dumper": "^4.2",
-        "illuminate/container": "^5.7",
-        "symfony/routing": "v4.0.1",
-        "symfony/http-foundation": "^4.2",
-        "symfony/http-kernel": "^4.2",
-        "symfony/event-dispatcher": "^4.2",
         "xiangyu2038/fly_sky_framework": "^3.0.0",
         "illuminate/config": "^5.8@dev",
         "symfony/finder": "^4.3@dev",

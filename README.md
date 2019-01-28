@@ -28,20 +28,35 @@
 ```php
 <?php
 
-namespace App\Http;
+// 路由配置文件
+use Symfony\Component\Routing;
 
-use Symfony\Component\HttpFoundation\Request;
+$routes = new Routing\RouteCollection();
 
-class TestController
-{
-    public function index(Request $request)
-    {
-        return 'test';
-    }
-}
+$routes->add('test', new Routing\Route('/test/{hello}', array(
+    'year' => null,
+    '_controller' => 'App\Http\TestController::index',
+)));
+
+return $routes;
   ```
-  $request 为当前请求对象 
+ ### 控制器
+  控制器在app/Http目录下 示例代码如下
+  ```php
+  <?php
+  namespace App\Http;
   
+  use Symfony\Component\HttpFoundation\Request;
+  
+  class TestController
+  {
+      public function index(Request $request)
+      {
+          return 'test';
+      }
+  }
+   ```
+   $request 为当前请求对象
   ### 事件 
   框架的事件采用的是laravel的事件模块,所以和laravel的使用方法一致
   事件目录在app/Events  

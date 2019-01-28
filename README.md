@@ -6,7 +6,7 @@
  ```sh
  composer create-project xiangyu2038/flysky
  ```
-###配置
+### 配置
 配置文件在app/Config目录下 
 配置文件示例
 ```php
@@ -23,7 +23,7 @@
   ```
   其中config 为配置文件名称,test为配置文件的键
   
-  ###路由 
+  ### 路由 
    路由配置文件在app/Routes目录下 示例代码如下
 ```php
 <?php
@@ -42,7 +42,7 @@ class TestController
   ```
   $request 为当前请求对象 
   
-  ###事件 
+  ### 事件 
   框架的事件采用的是laravel的事件模块,所以和laravel的使用方法一致
   事件目录在app/Events  
   事件编写示例 
@@ -144,7 +144,7 @@ class TestController
     ///////app/Exceptions/Exceptions.php
    ```
    框架本身已定义好四种事件 分别是kernel.request,kernel.finish_request,kernel.exception,kernel.view四个事件,您可以根据自己的需求改写这些事件
-   ###异常处理
+   ### 异常处理
    当程序发生异常时,会触发kernel.exception事件,最终会把异常抛给Exception进行处理,用户可以根据自己抛出异常的类型进行相应的处理
    示例
    ```php
@@ -169,7 +169,7 @@ class TestController
     }
 
    ```
-   ###服务提供者
+   ### 服务提供者
    集成第三方服务(尤其是laravel的服务) 可以使用服务提供者 目录在app/Config/provider
    示例 
    ```php
@@ -198,7 +198,7 @@ class TestController
    
          ];
    ```
-   ###数据库查询
+   ### 数据库查询
    本框架没有集成数据库查询功能,用户可以根据个人喜好选择第三方用的顺手的数据库查询功能
    本示例将演示如何安装laravel的Eloquent ORM模型进行查询
    首先 安装Eloquent ORM模块 
@@ -219,7 +219,8 @@ class TestController
   
   大功告成 现在可以使用laravel的ORM了
   
-  ###视图 同样没有集成视图 本示例将演示如何安装laravel的blade模板引擎.
+  ### 视图 
+  同样没有集成视图 本示例将演示如何安装laravel的blade模板引擎.
   安装 
   ```sh
       composer require illuminate/view

@@ -6,6 +6,28 @@
  ```sh
  composer create-project xiangyu2038/flysky
  ```
+ 
+ ## 目录结构
+ 
+ 初始的目录结构如下：
+ 
+ ~~~
+ www  WEB部署目录（或者子目录）
+ ├─app          应用目录
+ │  ├─Config             配置文件目录
+ │  ├─Events             事件目录
+ │  ├─Exceptions          异常处理目录
+ │  ├─Http                请求目录 (控制器目录)
+ │  ├─Listeners            事件监听者目录
+ │  ├─Models              模型目录
+ │  ├─Providers             服务提供者目录
+ │  ├─Routes             路由目录
+ │  ├─Storage             存储目录(视图缓存 日志等)
+ │  ├─View               视图目录
+ ├─public                 WEB目录（对外访问目录）
+ ├─vendor              composer 目录
+ ~~~
+ 
 ### 配置
 配置文件在app/Config目录下 
 配置文件示例
